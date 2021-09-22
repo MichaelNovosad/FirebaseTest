@@ -6,11 +6,25 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    @StateObject private var viewModel = Authentication()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List {
+            NavigationLink {
+                BooksPreviewView()
+            } label: {
+                Text("Firebase Firestore")
+            }
+            NavigationLink {
+                LogInView()
+            } label: {
+                Text("Firebase SignIn")
+            }
+            .navigationBarHidden(true)
+        }
     }
 }
 
