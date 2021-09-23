@@ -16,8 +16,9 @@ struct LogInView: View {
     
     @State private var sheetIsPresented = false
     @StateObject private var viewModel = Authentication()
-    @Environment (\.presentationMode) var presentationMode
+    private var appleLogin = SignInWithApple()
     
+    @Environment (\.presentationMode) var presentationMode
     var body: some View {
         if viewModel.signedIn {
             SuccessView()
@@ -46,7 +47,11 @@ struct LogInView: View {
                             .overlay(RoundedRectangle(cornerRadius: 20).stroke())
                             .foregroundColor(.blue)
                     })
+
+                    SignInWithAppleView()
+                        .frame(width: 280, height: 45, alignment: .center)
                         .padding()
+                                  
                     Button(action: {
                         self.sheetIsPresented = true
                     }, label: {
@@ -54,6 +59,7 @@ struct LogInView: View {
                             .font(.caption)
                             .foregroundColor(.blue)
                     })
+                        .padding()
                 }
                 .sheet(isPresented: $sheetIsPresented) {
                     Section {

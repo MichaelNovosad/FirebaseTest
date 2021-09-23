@@ -10,7 +10,6 @@ import Firebase
 
 struct ContentView: View {
     @StateObject private var viewModel = Authentication()
-
     var body: some View {
         List {
             NavigationLink {
@@ -22,6 +21,11 @@ struct ContentView: View {
                 LogInView()
             } label: {
                 Text("Firebase SignIn")
+            }
+            NavigationLink {
+                StorageView()
+            } label: {
+                Text("Firebase Storage")
             }
             .navigationBarHidden(true)
         }

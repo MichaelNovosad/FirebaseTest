@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF001E1F26FB6BB700B53B1D /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF001E1E26FB6BB700B53B1D /* SignInWithApple.swift */; };
+		BF001E2C26FC6AAD00B53B1D /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF001E2B26FC6AAD00B53B1D /* SignInWithAppleView.swift */; };
 		BF8F9F0C26FA1F04008E1B38 /* FirebaseTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8F9EFC26FA1F01008E1B38 /* FirebaseTestApp.swift */; };
 		BF8F9F0E26FA1F04008E1B38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8F9EFD26FA1F01008E1B38 /* ContentView.swift */; };
 		BF8F9F1026FA1F04008E1B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8F9EFE26FA1F04008E1B38 /* Assets.xcassets */; };
@@ -22,14 +24,18 @@
 		BF8F9F4226FB06F5008E1B38 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8F9F4126FB06F5008E1B38 /* LogInView.swift */; };
 		BF8F9F4426FB079B008E1B38 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8F9F4326FB079B008E1B38 /* Authentication.swift */; };
 		BF8F9F4626FB3399008E1B38 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8F9F4526FB3399008E1B38 /* SuccessView.swift */; };
+		BF8F9F4E26FB5FEA008E1B38 /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8F9F4D26FB5FEA008E1B38 /* StorageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF001E1E26FB6BB700B53B1D /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		BF001E2926FC67CD00B53B1D /* FirebaseTest (iOS).entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "FirebaseTest (iOS).entitlements"; sourceTree = "<group>"; };
+		BF001E2A26FC67CD00B53B1D /* FirebaseTest (iOS)Debug.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "FirebaseTest (iOS)Debug.entitlements"; sourceTree = "<group>"; };
+		BF001E2B26FC6AAD00B53B1D /* SignInWithAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
 		BF8F9EFC26FA1F01008E1B38 /* FirebaseTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTestApp.swift; sourceTree = "<group>"; };
 		BF8F9EFD26FA1F01008E1B38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF8F9EFE26FA1F04008E1B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF8F9F0326FA1F04008E1B38 /* FirebaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF8F9F0B26FA1F04008E1B38 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		BF8F9F3026FA22A7008E1B38 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		BF8F9F3326FA234B008E1B38 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
 		BF8F9F3526FA27B7008E1B38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -37,6 +43,7 @@
 		BF8F9F4126FB06F5008E1B38 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		BF8F9F4326FB079B008E1B38 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		BF8F9F4526FB3399008E1B38 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		BF8F9F4D26FB5FEA008E1B38 /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +65,9 @@
 		BF8F9EF626FA1F01008E1B38 = {
 			isa = PBXGroup;
 			children = (
+				BF001E2926FC67CD00B53B1D /* FirebaseTest (iOS).entitlements */,
+				BF001E2A26FC67CD00B53B1D /* FirebaseTest (iOS)Debug.entitlements */,
 				BF8F9EFB26FA1F01008E1B38 /* Shared */,
-				BF8F9F0A26FA1F04008E1B38 /* macOS */,
 				BF8F9F0426FA1F04008E1B38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +77,7 @@
 			children = (
 				BF8F9EFC26FA1F01008E1B38 /* FirebaseTestApp.swift */,
 				BF8F9EFD26FA1F01008E1B38 /* ContentView.swift */,
+				BF8F9F4926FB5F6A008E1B38 /* Firebase Storage */,
 				BF8F9F3E26FB06C4008E1B38 /* Firebase Authentication */,
 				BF8F9F3926FB01B6008E1B38 /* Firebase Firestore */,
 				BF8F9EFE26FA1F04008E1B38 /* Assets.xcassets */,
@@ -83,14 +92,6 @@
 				BF8F9F0326FA1F04008E1B38 /* FirebaseTest.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BF8F9F0A26FA1F04008E1B38 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				BF8F9F0B26FA1F04008E1B38 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		BF8F9F2D26FA2280008E1B38 /* Model */ = {
@@ -141,6 +142,7 @@
 			children = (
 				BF8F9F4126FB06F5008E1B38 /* LogInView.swift */,
 				BF8F9F4526FB3399008E1B38 /* SuccessView.swift */,
+				BF001E2B26FC6AAD00B53B1D /* SignInWithAppleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,8 +151,41 @@
 			isa = PBXGroup;
 			children = (
 				BF8F9F4326FB079B008E1B38 /* Authentication.swift */,
+				BF001E1E26FB6BB700B53B1D /* SignInWithApple.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BF8F9F4926FB5F6A008E1B38 /* Firebase Storage */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F9F4C26FB5F8B008E1B38 /* ViewModel */,
+				BF8F9F4B26FB5F87008E1B38 /* View */,
+				BF8F9F4A26FB5F82008E1B38 /* Model */,
+			);
+			path = "Firebase Storage";
+			sourceTree = "<group>";
+		};
+		BF8F9F4A26FB5F82008E1B38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF8F9F4B26FB5F87008E1B38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF8F9F4D26FB5FEA008E1B38 /* StorageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF8F9F4C26FB5F8B008E1B38 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,12 +268,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF001E1F26FB6BB700B53B1D /* SignInWithApple.swift in Sources */,
 				BF8F9F4626FB3399008E1B38 /* SuccessView.swift in Sources */,
 				BF8F9F4426FB079B008E1B38 /* Authentication.swift in Sources */,
 				BF8F9F3826FB013B008E1B38 /* BooksPreviewView.swift in Sources */,
 				BF8F9F0E26FA1F04008E1B38 /* ContentView.swift in Sources */,
+				BF001E2C26FC6AAD00B53B1D /* SignInWithAppleView.swift in Sources */,
 				BF8F9F4226FB06F5008E1B38 /* LogInView.swift in Sources */,
 				BF8F9F3426FA234B008E1B38 /* BooksViewModel.swift in Sources */,
+				BF8F9F4E26FB5FEA008E1B38 /* StorageView.swift in Sources */,
 				BF8F9F0C26FA1F04008E1B38 /* FirebaseTestApp.swift in Sources */,
 				BF8F9F3126FA22A7008E1B38 /* Book.swift in Sources */,
 			);
@@ -365,6 +403,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FirebaseTest (iOS)Debug.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U23RZZ7M6L;
@@ -383,6 +423,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelNovosad.FirebaseTest;
 				PRODUCT_NAME = FirebaseTest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -395,6 +436,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FirebaseTest (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U23RZZ7M6L;
@@ -413,6 +456,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelNovosad.FirebaseTest;
 				PRODUCT_NAME = FirebaseTest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,7 +475,7 @@
 				BF8F9F1326FA1F04008E1B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		BF8F9F1426FA1F04008E1B38 /* Build configuration list for PBXNativeTarget "FirebaseTest (iOS)" */ = {
 			isa = XCConfigurationList;
@@ -440,7 +484,7 @@
 				BF8F9F1626FA1F04008E1B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
